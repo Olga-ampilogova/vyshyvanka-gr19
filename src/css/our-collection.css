@@ -1,1 +1,23 @@
-.our-collection {}
+.our-collection {
+  background-color: #1c2225;
+  color: aliceblue;
+}
+.container {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px 80px 20px;
+}
+.our-collection-tittle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-name {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
