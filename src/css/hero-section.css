@@ -1,1 +1,80 @@
-.hero-section {}
+.hero-section {
+    background-color: #1C2225;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.img-girl {
+    margin-top: 100px;
+    margin-right: 40px;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray -56.27px -5.605px / 131.835% 126.432% no-repeat;
+}
+
+.hero-title {
+    margin-top: 194px;
+}
+
+.hero-name {
+    width: 518px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.hero-name-text {
+    color: #ECD979;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1.62px;
+}
+
+.hero-button {
+    display: flex;
+    width: 168px;
+    padding: 14px 39px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: #1C2225;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+}
+
+.hero-sun {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-sun-text {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.40);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
