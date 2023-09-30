@@ -1,13 +1,5 @@
 <section class="hero-section">
   <div class="container hero-container">
-    <img
-      class="img-girl"
-      srcset="../img/hero-img/girl@2x.jpg 2x"
-      src="../img/hero-img/girl.jpg"
-      alt="girl"
-      width="392"
-      height="545"
-    />
     <div class="hero-title">
       <h1 class="hero-name">
         Reviving the traditional
@@ -25,6 +17,20 @@
           <use href="../img/sprite.svg#icon-untitled"></use>
         </svg>
       </button>
+      <img
+        class="img-girl"
+        srcset="
+          ../img/hero-img/hero-girl-ds.jpg     392w,
+          ../img/hero-img/hero-girl-ds@2x.jpg  784w,
+          ../img/hero-img/hero-girl-tb.jpg     413w,
+          ../img/hero-img/hero-girl-tb@2x.jpg  826w,
+          ../img/hero-img/hero-girl-mob.jpg    335w,
+          ../img/hero-img/hero-girl-mob@2x.jpg 670w
+        "
+        sizes="(min-width: 1440px) 392px, (min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
+        src="../img/hero-img/girl.jpg"
+        alt="girl"
+      />
     </div>
     <div class="hero-sun">
       <svg
