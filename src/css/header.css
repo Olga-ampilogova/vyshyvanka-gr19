@@ -45,6 +45,11 @@
     align-items: center;
 }
 
+.header-network-link:hover,
+.header-network-link:focus {
+    border-color: #ecd979;
+}
+
 .modal-window-open-btn {
     background-color: transparent;
     border: none;
@@ -91,6 +96,11 @@
         color: rgba(252, 249, 249);
     }
 
+    .header-nav-list-link:hover,
+    .header-nav-list-link:focus {
+        color: #ecd979;
+    }
+
     .header-address {
         display: block;
         margin-right: 20px;
@@ -110,6 +120,11 @@
         font-style: normal;
         line-height: 1.43;
         color: rgba(252, 249, 249, 1);
+    }
+
+    .header-address-item:hover,
+    .header-address-item:focus {
+        border-color: #ecd979;
     }
 
     .header-networks-list {
