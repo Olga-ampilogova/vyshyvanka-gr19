@@ -1,17 +1,115 @@
-.about-us {}
-
-.about-us-container {
-    padding-bottom: 100px;
+.about-us {
+    height: 100%;
+    padding-bottom: 80px;
+    background-color: var(--prymary-color);
+    background-image: url(../img/about-us/about-us-fon-mob.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 18px;
 }
 
-.about-us-text {}
+@media (min-device-pixel-ratio: 2) and (max-width: 375px),
+(min-resolution: 192dpi) and (max-width: 375px),
+(min-resolution: 2dppx) and (max-width: 375px) {
+    .about-us {
+        background-image: url(../img/about-us/about-us-fon-mob2x.png);
+    }
+}
 
-.about-us-title {}
+.about-us-text {
+    margin-bottom: 50px;
+}
 
-.about-us-image {}
+.about-us-title {
+    color: var(--secondary-color);
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    text-align: start;
+    margin-bottom: 40px;
+}
 
-.about-us-endtext {}
+.text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
 
-.about-us-image--container {}
+.about-us-initial {
+    margin-bottom: 20px;
+}
 
-.about-us-image {}
+@media screen and (min-width:768px) {
+    .about-us {
+        background-image: url(../img/about-us/about-us-fon-tb.png);
+        background-position: right bottom 50px;
+        padding-bottom: 100px;
+    }
+
+    @media (min-device-pixel-ratio: 2) and (max-width: 768px),
+    (min-resolution: 192dpi) and (max-width: 375px),
+    (min-resolution: 2dppx) and (max-width: 375px) {
+        .about-us {
+            background-image: url(../img/about-us/about-us-fon-tb2x.png);
+        }
+    }
+
+    .about-us-title {
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us {
+        padding-bottom: 0;
+        background-image: url(../img/about-us/about-us-fon-ds.png);
+        background-position: right bottom 70px;
+        padding-bottom: 150px;
+    }
+
+    @media (min-device-pixel-ratio: 2) and (max-width: 1280px),
+    (min-resolution: 192dpi) and (max-width: 1280px),
+    (min-resolution: 2dppx) and (max-width: 1280px) {
+        .about-us {
+            background-image: url(../img/about-us/about-us-fon-ds2x.png);
+        }
+    }
+
+    .about-us-container {
+        display: flex;
+        gap: 50px;
+    }
+
+    .about-us-text {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        width: 436px;
+        text-align: justify;
+
+    }
+
+    .about-us-image--container {
+        width: 594px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us-image-picture {
+        display: flex;
+    }
+
+    .about-us-title {
+        font-size: 44px;
+        line-height: 1.45;
+    }
+}
