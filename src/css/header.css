@@ -1,1 +1,122 @@
-.header {}
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1C2225;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+
+.header-nav-list {
+    display: none;
+}
+
+.header-content-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-address {
+    display: none;
+}
+
+.header-networks-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-right: 12px;
+}
+
+.header-network-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background-color: rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.modal-window-open-btn-img {
+    width: 36px;
+    height: 24px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .header-networks-list {
+        margin-right: 20px;
+    }
+
+    .modal-window-open-btn-img {
+        width: 44px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header-nav {
+        display: flex;
+    }    
+    
+    .site-logo {
+        margin-right: 60px;
+    }
+
+    .header-nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .header-nav-list-link {
+        font-size: 14px;
+        line-height: 1.29;
+        color: rgba(252, 249, 249);
+    }
+
+    .header-address {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header-address-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 193px;
+        height: 48px;      
+        padding: 0;
+        background-color: transparent;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        border-radius: 15px;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 1.43;
+        color: rgba(252, 249, 249, 1);
+    }
+
+    .header-networks-list {
+        margin-right: 0;
+    }
+
+    .modal-window-open-btn {
+        display: none;
+    }
+}
