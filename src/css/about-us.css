@@ -2,9 +2,6 @@
     height: 100%;
     padding-bottom: 80px;
     background-color: var(--prymary-color);
-    background-image: url(../img/about-us/about-us-fon-mob.png);
-    background-repeat: no-repeat;
-    background-position: right bottom 18px;
 }
 
 .about-us-text {
@@ -33,13 +30,38 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 767px) {
+    .about-us {
+        background-image: url(../img/about-us/about-us-fon-mob.png);
+        background-repeat: no-repeat;
+        background-size: 262px 410px;
+        background-position: 100% 98%;
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
+        .about-us {
+            background-repeat: no-repeat;
+            background-image: url(../img/about-us/about-us-fon-mob@2x.png);
+        }
+    }
+}
+
 @media screen and (min-width:768px) {
     .about-us {
         background-image: url(../img/about-us/about-us-fon-tb.png);
-        background-position: right bottom 50px;
+        background-size: 545px 484px;
+        background-position: 100% 95%;
         padding-bottom: 100px;
     }
 
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
+        .about-us {
+            background-repeat: no-repeat;
+            background-image: url(../img/about-us/about-us-fon-tb2x.png);
+        }
+    }
 
     .about-us-title {
         font-size: 44px;
@@ -56,14 +78,23 @@
     }
 }
 
+
 @media screen and (min-width: 1280px) {
     .about-us {
         padding-bottom: 0;
         background-image: url(../img/about-us/about-us-fon-ds.png);
-        background-position: right bottom 70px;
+        background-position: 100% 80%;
+        background-size: 545px 484px;
         padding-bottom: 150px;
     }
 
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
+        .about-us {
+            background-repeat: no-repeat;
+            background-image: url(../img/about-us/about-us-fon-ds2x.png);
+        }
+    }
 
     .about-us-container {
         display: flex;
@@ -91,5 +122,11 @@
     .about-us-title {
         font-size: 44px;
         line-height: 1.45;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .about-us {
+        background-image: none;
     }
 }
