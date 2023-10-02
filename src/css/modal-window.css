@@ -1,9 +1,8 @@
 .modal-window {
     position: fixed;
     top: 0;
+    right: 0;
     height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
     width: 274px;
     z-index: 2023;
     padding-top: 20px;
