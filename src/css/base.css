@@ -3,3 +3,7 @@
     --prymary-color: #1C2225;
     --secondary-color: #FCF9F9;
 }
+
+body {
+    font-family: Manrope;
+}

@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./container.css');
+@import url('./base.css');
 @import url('./header.css');
 @import url('./hero-section.css');
 @import url('./about-us.css');
@@ -13,10 +14,3 @@
 @import url('./your-order.css');
 @import url('./testimonials.css');
 @import url('./footer.css');
-
-
-:root {
-  --accent-color: #ECD979;
-  --prymary-color: #1C2225;
-  --secondary-color: #FCF9F9;
-}
