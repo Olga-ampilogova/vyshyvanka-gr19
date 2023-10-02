@@ -34,17 +34,32 @@
         alt="girl"
       />
     </div>
-    <div class="hero-sun">
-      <svg
-        class="hero-icon-sun"
-        width="52"
-        height="51"
-        aria-label="hero icon sun"
-      >
-        <use href="../img/sprite.svg#icon-Star-10"></use>
-      </svg>
-      <p class="hero-sun-text">all embroidery is made by hand</p>
+    <div class="hero-images">
+      <div class="hero-sun">
+        <svg
+          class="hero-icon-sun"
+          width="52"
+          height="51"
+          aria-label="hero icon sun"
+        >
+          <use href="../img/sprite.svg#icon-Star-10"></use>
+        </svg>
+        <p class="hero-sun-text">all embroidery is made by hand</p>
+      </div>
+      <div class="hero-map">
+        <img
+          class="hero-map-img"
+          srcset="
+            ../img/hero/hero-map-ds.png    143w,
+            ../img/hero/hero-map-ds@2x.png 286w,
+            ../img/hero/hero-map-tb.png    157w,
+            ../img/hero/hero-map-tb@2x.png 314w
+          "
+          sizes="(min-width: 1280px) 157px, (min-width: 768px) 139px"
+          src="../img/hero/hero-map-ds.png"
+          alt="hero map"
+        />
+      </div>
     </div>
-    <div class="hero-map"></div>
   </div>
 </section>
