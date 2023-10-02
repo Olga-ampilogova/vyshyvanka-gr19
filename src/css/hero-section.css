@@ -91,13 +91,9 @@
 
 @media screen and (min-width: 768px) {
     .hero-container {
-        position: fixed;
+        position: relative;
         padding-top: 80px;
         padding-bottom: 100px;
-    }
-
-    .hero-title {
-        position: relative;
     }
 
     .hero-name {
@@ -119,12 +115,24 @@
         margin-bottom: 40px;
     }
 
+    .hero-images {
+        flex-direction: column;
+        right: 32px;
+    }
+
     .hero-sun {
         position: absolute;
         right: 32px;
     }
 
     .hero-map {
+        position: absolute;
+        right: 23px;
+        bottom: 0;
+    }
+
+    .hero-map-img {
+        background: url(<path-to-image>), -2.282px -3.431px / 105.126% 103.318% no-repeat;
     }
 }
 
@@ -164,6 +172,14 @@
         top: 114px;
         right: 100px;
     }
+
+    .hero-map {
+        right: 100px;
+    }
+
+    .hero-map-img {
+        background: url(<path-to-image>), -2.066px -19.213px / 105.126% 113.938% ;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -173,5 +189,9 @@
 
     .hero-sun {
         top: 166px;
+    }
+
+    .hero-map-img {
+        background: url(<path-to-image>), -2.02px 11.77px / 105.126% 113.938% no-repeat;
     }
 }
