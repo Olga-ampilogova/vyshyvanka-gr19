@@ -1,27 +1,36 @@
 <section class="hero-section">
   <div class="container hero-container">
     <div class="hero-title">
-      <h1 class="hero-name">
-        Reviving the traditional
-        <span class="hero-name-text">Ukrainian</span>
-        artistry in every stitch.
-      </h1>
-      <button class="hero-button" type="button">
-        Order
-        <svg
-          class="hero-button-arrow"
-          width="26"
-          height="10"
-          aria-label="hero button arrow"
-        >
-          <use href="../img/sprite.svg#icon-untitled"></use>
-        </svg>
-      </button>
+      <div class="hero-title-name">
+        <h1 class="hero-name">
+          Reviving the traditional
+          <span class="hero-name-text">Ukrainian</span>
+          artistry in every stitch.
+        </h1>
+        <button class="hero-button" type="button">
+          Order
+          <svg
+            class="hero-button-arrow"
+            width="26"
+            height="10"
+            aria-label="hero button arrow"
+          >
+            <use href="../img/sprite.svg#icon-untitled"></use>
+          </svg>
+        </button>
+      </div>
       <img
         class="img-girl"
-        srcset="392w, 784w, 413w, 826w, 335w, 670w"
+        srcset="
+          ../img/hero/hero-girl-ds.jpg     392w,
+          ../img/hero/hero-girl-ds@2x.jpg  784w,
+          ../img/hero/hero-girl-tb.jpg     413w,
+          ../img/hero/hero-girl-tb@2x.jpg  826w,
+          ../img/hero/hero-girl-mob.jpg    335w,
+          ../img/hero/hero-girl-mob@2x.jpg 770w
+        "
         sizes="(min-width: 1440px) 392px, (min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
-        src=""
+        src="../img/hero/hero-girl-ds.jpg"
         alt="girl"
       />
     </div>
@@ -36,5 +45,6 @@
       </svg>
       <p class="hero-sun-text">all embroidery is made by hand</p>
     </div>
+    <div class="hero-map"></div>
   </div>
 </section>
