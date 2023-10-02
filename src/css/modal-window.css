@@ -1,0 +1,148 @@
+.modal-window {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 274px;
+    z-index: 2023;
+    padding-top: 20px;
+    background-color: #ecd979;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.modal-window-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-window-address-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid rgba(28, 34, 37, 0.1);
+    border-radius: 15px;
+    background-color: transparent;
+
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.17;
+    color: rgba(28, 34, 37, 1);
+}
+
+.modal-window-close-btn {
+    width: 36px;
+    height: 36px;
+    border: none;
+    padding: 0;
+    line-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+}
+
+.modal-window-close-btn-img {
+    width: 18px;
+    height: 18px;
+    stroke: rgba(28, 34, 37, 1);
+}
+
+.modal-window-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-right: 20px;
+}
+
+.modal-window-menu-item {
+    text-align: right;
+}
+
+.modal-window-menu-item-link {
+    font-size: 14px;
+    line-height: 1.29;
+    color: rgba(28, 34, 37, 1);
+}
+
+.modal-window-background-wrp {
+    height: 251px;
+    width: 100%;
+    background-image: url(../img/mobal-window/mob-window-ornament-mob.png);
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .modal-window-background-wrp {
+        background-image: url(../img/mobal-window/mob-window-ornament-mob@2x.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-window {
+        width: 380px;
+    }
+
+    .modal-window-header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .modal-window-address-item {
+        width: 193px;
+        height: 38px;
+
+        font-size: 14px;
+        line-height: 1.43;
+    }
+
+    .modal-window-close-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .modal-window-close-btn-img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .modal-window-menu {
+        gap: 25px;
+        padding-right: 32px;
+    }
+
+    .modal-window-background-wrp {
+        height: 364px;
+        background-image: url(../img/mobal-window/mob-window-ornament-tb.png);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .modal-window-background-wrp {
+        background-image: url(../img/mobal-window/mob-window-ornament-tb@2x.png);
+    }
+}
