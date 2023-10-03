@@ -1,132 +1,137 @@
 .about-us {
-    height: 100%;
-    padding-bottom: 80px;
-    background-color: var(--prymary-color);
+  height: 100%;
+
+  background-color: var(--prymary-color);
 }
 
 .about-us-text {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about-us-title {
-    color: var(--secondary-color);
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.37;
-    letter-spacing: -0.03em;
-    text-align: start;
-    margin-bottom: 40px;
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  text-align: start;
+  margin-bottom: 40px;
 }
 
 .text {
-    color: rgba(252, 249, 249, 0.40);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
 }
 
 .about-us-initial {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) {
-    .about-us {
-        background-image: url(../img/about-us/about-us-fon-mob.png);
-        background-repeat: no-repeat;
-        background-size: 262px 410px;
-        background-position: 100% 98%;
-    }
+  .about-us .container {
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-position: 125px 610px;
+    background-image: url(../img/about-us/about-us-fon-mob.png);
+  }
 
-    @media screen and (min-resolution: 192dpi),
+  @media screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
-        .about-us {
-            background-repeat: no-repeat;
-            background-image: url(../img/about-us/about-us-fon-mob@2x.png);
-        }
+    .about-us .container {
+      background-size: 250px 408px;
+      background-image: url(../img/about-us/about-us-fon-mob@2x.png);
     }
+  }
 }
 
-@media screen and (min-width:768px) {
-    .about-us {
-        background-image: url(../img/about-us/about-us-fon-tb.png);
-        background-size: 545px 484px;
-        background-position: 100% 95%;
-        padding-bottom: 100px;
-    }
+@media screen and (min-width: 768px) {
+  .about-us .container {
+    background-image: url(../img/about-us/about-us-fon-tb.png);
+    background-position: 100% 90%;
+    padding-bottom: 100px;
+  }
 
-    @media screen and (min-resolution: 192dpi),
+  @media screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
-        .about-us {
-            background-repeat: no-repeat;
-            background-image: url(../img/about-us/about-us-fon-tb2x.png);
-        }
+    .about-us .container {
+      background-size: 369px 484px;
+      background-repeat: no-repeat;
+      background-image: url(../img/about-us/about-us-fon-tb2x.png);
     }
+  }
 
-    .about-us-title {
-        font-size: 44px;
-        line-height: 1.45;
-        letter-spacing: -0.03em;
-    }
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
 
-    .text {
-        font-size: 16px;
-    }
+  .text {
+    font-size: 16px;
+  }
 
-    .about-us-text {
-        margin-bottom: 40px;
-    }
+  .about-us-text {
+    margin-bottom: 40px;
+  }
 }
-
 
 @media screen and (min-width: 1280px) {
-    .about-us {
-        padding-bottom: 0;
-        background-image: url(../img/about-us/about-us-fon-ds.png);
-        background-position: 100% 80%;
-        background-size: 545px 484px;
-        padding-bottom: 150px;
-    }
+  .about-us .container {
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/about-us/about-us-fon-ds.png);
+    background-position: 99% 70%;
 
-    @media screen and (min-resolution: 192dpi),
+    padding-bottom: 150px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
-        .about-us {
-            background-repeat: no-repeat;
-            background-image: url(../img/about-us/about-us-fon-ds2x.png);
-        }
+    .about-us .container {
+      background-size: 369px 484px;
+      background-repeat: no-repeat;
+      background-image: url(../img/about-us/about-us-fon-ds2x.png);
     }
+  }
 
-    .about-us-container {
-        display: flex;
-        gap: 50px;
-    }
+  .about-us-container {
+    display: flex;
+    gap: 50px;
+  }
 
-    .about-us-text {
-        margin-top: 45px;
-        margin-bottom: 45px;
-        width: 436px;
-        text-align: justify;
-    }
+  .about-us-text {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 436px;
+    text-align: justify;
+  }
 
-    .about-us-image--container {
-        width: 594px;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+  .about-us-image--container {
+    width: 594px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .about-us-image-picture {
-        display: flex;
-    }
+  .about-us-image-picture {
+    display: flex;
+  }
 
-    .about-us-title {
-        font-size: 44px;
-        line-height: 1.45;
-    }
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-us .container {
+    width: 1280px;
+  }
 }
 
-@media screen and (min-width: 2000px) {
-    .about-us {
-        background-image: none;
-    }
-}
+/* @media screen and (min-width: 2000px) {
+  .about-us {
+    background-image: none;
+  } */
