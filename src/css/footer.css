@@ -58,7 +58,7 @@
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
-    .our-collection .container {
+    .footer.container {
       background-size: 375px 212px;
       background-image: url(../img/footer/footer-ornament-mob@2x.png);
     }
@@ -86,7 +86,7 @@
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 192dpi),
     screen and (min-device-pixel-ratio: 2) {
-    .our-collection .container {
+    .footer .container {
       background-size: 174px 370px;
       background-image: url(../img/footer/footer-ornament-tb@2x.png);
     }
