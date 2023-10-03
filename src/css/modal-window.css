@@ -88,14 +88,14 @@
 .modal-window-background-wrp {
     height: 251px;
     width: 100%;
-    background-image: url(../img/mobal-window/mob-window-ornament-mob.png);
+    background-image: url(./img/mobal-window/mob-window-ornament-mob.png);
 }
 
 @media screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
     .modal-window-background-wrp {
-        background-image: url(../img/mobal-window/mob-window-ornament-mob@2x.png);
+        background-image: url(./img/mobal-window/mob-window-ornament-mob@2x.png);
     }
 }
 
@@ -134,7 +134,7 @@ screen and (min-device-pixel-ratio: 2) {
 
     .modal-window-background-wrp {
         height: 364px;
-        background-image: url(../img/mobal-window/mob-window-ornament-tb.png);
+        background-image: url(./img/mobal-window/mob-window-ornament-tb.png);
     }
 }
 
@@ -142,6 +142,6 @@ screen and (min-device-pixel-ratio: 2) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .modal-window-background-wrp {
-        background-image: url(../img/mobal-window/mob-window-ornament-tb@2x.png);
+        background-image: url(./img/mobal-window/mob-window-ornament-tb@2x.png);
     }
 }
