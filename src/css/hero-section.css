@@ -1,1 +1,162 @@
-.hero-section {}
+.hero-section {
+  background-color: var(--prymary-color);
+}
+.hero-section .container {
+  position: relative;
+}
+.hero-name {
+  color: var(--secondary-color);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+.hero-name-text {
+  color: var(--accent-color);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+.hero-button {
+  display: flex;
+  width: 168px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: var(--prymary-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.hero-button:hover,
+.hero-button:focus {
+  border: 1px solid var(--accent-color);
+}
+.img-girl {
+  border-radius: 4px;
+  background: url(<path-to-image>),
+    lightgray -56.27px -5.605px / 131.835% 126.432% no-repeat;
+}
+.hero-map {
+  position: absolute;
+  right: 32px;
+  top: 914px;
+}
+.hero-sun {
+  position: absolute;
+  top: 80px;
+  right: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.hero-sun-text {
+  width: 115px;
+  color: rgba(252, 249, 249, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+/* ------MOBIL VERSION------ */
+
+@media screen and (max-width: 767px) {
+  .hero-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .hero-name {
+    width: 335px;
+    font-size: 44px;
+    line-height: 1.22;
+    margin-bottom: 20px;
+  }
+  .hero-name-text {
+    font-size: 44px;
+    line-height: 1.22;
+  }
+  .hero-button {
+    padding: 14px 36px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .hero-sun {
+    display: none;
+  }
+  .hero-map {
+    display: none;
+  }
+}
+
+/* ------------------------------- */
+
+/* ---TABLET VERSION---- */
+
+@media screen and (min-width: 768px) {
+  .hero-section .container {
+    /* position: relative; */
+    width: 768px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  /* .hero-title {
+    position: relative;
+  } */
+  .hero-name {
+    width: 549px;
+    font-size: 54px;
+    line-height: 1.18;
+    margin-top: 26px;
+    margin-bottom: 40px;
+  }
+  .hero-name-text {
+    font-size: 54px;
+    line-height: 1.18;
+  }
+  .hero-button {
+    padding: 14px 39px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+  }
+}
+
+/* ------------------------------- */
+
+/* --- DESKTOP ---------------*/
+
+@media screen and (min-width: 1280px) {
+  .hero-section .container {
+    width: 1280px;
+    padding-top: 100px;
+  }
+  .tittle-and-button {
+    position: absolute;
+    right: 230px;
+    top: 194px;
+  }
+
+  .hero-name {
+    width: 518px;
+    height: 192px;
+    font-size: 54px;
+    line-height: 1.18;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+  .hero-sun {
+    position: absolute;
+    top: 118px;
+    right: 100px;
+  }
+  .hero-map {
+    right: 100px;
+    top: 545px;
+  }
+}
+/* ------------------------------------ */
