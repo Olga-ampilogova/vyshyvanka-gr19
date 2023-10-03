@@ -30,6 +30,12 @@
     background-color: var(--prymary-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.hero-button:hover,
+.hero-button:focus {
+    border: 1px solid var(--accent-color);
+}
+
 .hero-button-text {
     color: var(--secondary-color);
     font-weight: 600;
@@ -85,10 +91,6 @@
         padding: 14px 36px;
     }
 
-    .hero-button:focus {
-        border: 1px solid var(--accent-color);
-    }
-
     .hero-button-text {
         font-size: 14px;
     }
@@ -131,10 +133,6 @@
         padding: 14px 39px;
     }
     
-    .hero-button:focus {
-        border: 1px solid var(--accent-color);
-    }
-
     .hero-button-text {
          font-size: 16px;
     }
@@ -187,10 +185,6 @@
     .hero-name-text {
         font-size: 54px;
         line-height: 1.18;
-    }
-
-    hero-button:hover {
-        border: 1px solid var(--accent-color);
     }
 
     .hero-sun {
