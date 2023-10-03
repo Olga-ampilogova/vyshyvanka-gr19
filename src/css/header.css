@@ -75,6 +75,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+    .header {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
     .header-nav {
         display: flex;
     }    
