@@ -30,7 +30,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 375px) {
     .about-us {
         background-image: url(../img/about-us/about-us-fon-mob.png);
         background-repeat: no-repeat;
