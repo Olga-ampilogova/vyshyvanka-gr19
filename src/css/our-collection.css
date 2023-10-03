@@ -136,10 +136,7 @@
 /* ----- DESKTOP VERSION ------ */
 @media screen and (min-width: 1280px) {
   .our-collection .container {
-    width: 1280px;
     padding-bottom: 150px;
-    padding-left: 99px;
-    padding-right: 99px;
     background-repeat: no-repeat;
     background-position: 0 200px;
     background-image: url(../img/collection/collection-fon-ds.png);
@@ -174,8 +171,12 @@
   }
 
   .card {
-    width: 347px;
+    width: calc((100% - 40px) / 3);
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .our-collection .container {
+    width: 1280px;
+  }
+}
 /* ---------------------------- */
