@@ -2,6 +2,9 @@
   background-color: var(--prymary-color);
 }
 
+.testimonials-section-background {
+  background-color: var(--prymary-color);
+}
 .testimonials-block {
   display: flex;
   flex-direction: column;
