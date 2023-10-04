@@ -152,6 +152,7 @@
 @media screen and (min-width: 1280px) {
     .hero-container {
         padding-top: 82px;
+        padding-bottom: 150px;
     }
 
     .hero-title {
@@ -185,6 +186,7 @@
 
     .hero-map {
         right: 100px;
+        bottom: 50px;
     }
 
     .hero-map-img {
