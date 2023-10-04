@@ -1,8 +1,10 @@
 .testimonials {
 }
 
+.testimonials-section-background {
+  background-color: var(--prymary-color);
+}
 .testimonials-block {
-  background: var(--prymary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
