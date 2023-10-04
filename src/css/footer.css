@@ -14,20 +14,24 @@
   flex-direction: row;
   gap: 40px;
 }
+
 .modul-1 {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+
 .modul-2 {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
+
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
 }
+
 .footer-text {
   display: block;
   font-size: 44px;
@@ -38,6 +42,7 @@
   text-transform: initial;
   margin-top: 40px;
 }
+
 .footer-span {
   color: var(--accent-color);
 }
@@ -48,6 +53,7 @@
   .footer {
     padding-top: 40px;
   }
+
   .footer .container {
     max-width: 375px;
     padding-bottom: 300px;
@@ -55,20 +61,23 @@
     background-position: 0 405px;
     background-image: url(../img/footer/footer-ornament-mob.png);
   }
+
   @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 192dpi),
-    screen and (min-device-pixel-ratio: 2) {
-    .our-collection .container {
+  screen and (min-resolution: 192dpi),
+  screen and (min-device-pixel-ratio: 2) {
+    .footer .container {
       background-size: 375px 212px;
       background-image: url(../img/footer/footer-ornament-mob@2x.png);
     }
   }
+
   @media screen and (max-width: 374px) {
     .footer .container {
       background-image: none;
     }
   }
 }
+
 /* -------------------------------- */
 /*----- TABLE VERSION --------- */
 
@@ -83,24 +92,28 @@
     background-position: 100%;
     background-image: url(../img/footer/footer-ornament-tb.png);
   }
+
   @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 192dpi),
-    screen and (min-device-pixel-ratio: 2) {
-    .our-collection .container {
+  screen and (min-resolution: 192dpi),
+  screen and (min-device-pixel-ratio: 2) {
+    .footer .container {
       background-size: 174px 370px;
       background-image: url(../img/footer/footer-ornament-tb@2x.png);
     }
   }
+
   .footer-nav {
     display: flex;
     flex-direction: row;
     gap: 25px;
   }
+
   .modul-1 {
     display: flex;
     flex-direction: row;
     gap: 25px;
   }
+
   .modul-2 {
     display: flex;
     flex-direction: row;
@@ -116,6 +129,7 @@
     margin-top: 80px;
   }
 }
+
 /* ------------------------------ */
 /* ----- DESKTOP VERSION ------ */
 @media screen and (min-width: 1280px) {
@@ -129,24 +143,28 @@
     background-position: 100.5%;
     background-image: url(../img/footer/footer-ornament-ds.png);
   }
+
   @media screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 192dpi),
-    screen and (min-device-pixel-ratio: 2) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-device-pixel-ratio: 2) {
     .footer .container {
       background-size: 336px 363px;
       background-image: url(../img/footer/footer-ornament-ds@2x.png);
     }
   }
+
   .footer-nav {
     display: flex;
     flex-direction: row;
     gap: 25px;
   }
+
   .modul-1 {
     display: flex;
     flex-direction: row;
     gap: 25px;
   }
+
   .modul-2 {
     display: flex;
     flex-direction: row;
@@ -162,4 +180,5 @@
     margin-top: 117px;
   }
 }
+
 /* ---------------------------- */
