@@ -9,7 +9,6 @@
   align-items: flex-start;
   text-align: center;
   gap: 40px;
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -38,6 +37,7 @@
 }
 
 .p-style {
+  width: 291px;
   color: rgba(252, 249, 249, 0.4);
   text-align: center;
   font-size: 14px;
@@ -90,7 +90,6 @@
   }
 
   .testimonials-block {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -100,7 +99,15 @@
     gap: 32px;
   }
 
+  .h-two-style {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
   .p-style {
+    width: 300px;
     color: rgba(252, 249, 249, 0.4);
     text-align: center;
     font-size: 16px;
@@ -121,8 +128,16 @@
     gap: 26px;
   }
 
+  .h-two-style {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+
   .p-style {
     color: rgba(252, 249, 249, 0.4);
+    width: 307px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -130,7 +145,6 @@
   }
 
   .testimonials-block {
-    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
