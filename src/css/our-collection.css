@@ -58,13 +58,13 @@
     max-width: 375px;
     padding-bottom: 80px;
     background-repeat: no-repeat;
-    background-position: 0 300px;
+    background-position: 0 307px;
     background-image: url(../img/collection/collection-fon-mob.png);
   }
 
   @media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 192dpi),
-  screen and (min-device-pixel-ratio: 2) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
     .our-collection .container {
       background-size: 72px 177px;
       background-image: url(../img/collection/collection-fon-mob@2x.png);
@@ -89,13 +89,13 @@
     padding-left: 32px;
     padding-right: 32px;
     background-repeat: no-repeat;
-    background-position: 0 270px;
+    background-position: 0 220px;
     background-image: url(../img/collection/collection-fon-tb.png);
   }
 
   @media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 192dpi),
-  screen and (min-device-pixel-ratio: 2) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
     .our-collection .container {
       background-size: 114px 300px;
       background-image: url(../img/collection/collection-fon-tb@2x.png);
@@ -136,18 +136,15 @@
 /* ----- DESKTOP VERSION ------ */
 @media screen and (min-width: 1280px) {
   .our-collection .container {
-    width: 1280px;
     padding-bottom: 150px;
-    padding-left: 99px;
-    padding-right: 99px;
     background-repeat: no-repeat;
-    background-position: 0 270px;
+    background-position: 0 200px;
     background-image: url(../img/collection/collection-fon-ds.png);
   }
 
   @media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 192dpi),
-  screen and (min-device-pixel-ratio: 2) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-device-pixel-ratio: 2) {
     .our-collection .container {
       background-size: 169px 300px;
       background-image: url(../img/collection/collection-fon-ds@2x.png);
@@ -174,8 +171,12 @@
   }
 
   .card {
-    width: 347px;
+    width: calc((100% - 40px) / 3);
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .our-collection .container {
+    width: 1280px;
+  }
+}
 /* ---------------------------- */
