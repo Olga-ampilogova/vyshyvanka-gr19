@@ -1,8 +1,8 @@
-.testimonials {
+.section-testimonials {
+  background-color: var(--prymary-color);
 }
 
 .testimonials-block {
-  background: var(--prymary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1.38;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
 }
 
 .h-three-style {
